@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "118254124429",
+    "firebase_url": "https://msu2-bee3e.firebaseio.com",
+    "project_id": "msu2-bee3e",
+    "storage_bucket": "msu2-bee3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118254124429:android:d1e35d685018b1635451c4",
+        "android_client_info": {
+          "package_name": "com.example.ms2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118254124429-1a347rq35ki9i7aqkh6e6eillee6f0io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYXONFB0-szm3tbY3rBWLzoCttZqkf8mI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118254124429-1a347rq35ki9i7aqkh6e6eillee6f0io.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

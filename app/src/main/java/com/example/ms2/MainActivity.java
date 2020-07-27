@@ -11,7 +11,7 @@ import android.os.Handler;
 public class MainActivity extends Activity {
 
     /**duration of wait**/
-    private final int SPLASH_DISPLAY_LENGTH = 1000;
+    private final int SPLASH_DISPLAY_LENGTH = 5000;
     /**called when first activity is created**/
 
     @Override
@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /**new handler to start the login activity**/
+        /*new handler to start the login activity*/
 
         new Handler().postDelayed(new Runnable() {
             @Override
