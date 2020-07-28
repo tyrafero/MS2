@@ -10,24 +10,38 @@ import android.os.Handler;
 
 public class MainActivity extends Activity {
 
-    /**duration of wait**/
-    private final int SPLASH_DISPLAY_LENGTH = 5000;
-    /**called when first activity is created**/
+  private static int SPLASH_TIME_OUT = 3000;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /*new handler to start the login activity*/
-
         new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent mainIntent = new Intent(MainActivity.this,Otp.class);
-                MainActivity.this.startActivity(mainIntent);
-                MainActivity.this.finish();
-            }
-        }, SPLASH_DISPLAY_LENGTH);
+
+                @Override
+                public void run() {
+                    startActivity(new Intent(MainActivity.this, Register.class));
+
+                }
+            }, SPLASH_TIME_OUT);
+            MainActivity.this.finish();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
